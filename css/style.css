@@ -296,7 +296,7 @@
   }
 
   .more-info__item {
-    text-align: left;
+    text-align: center;
   }
 
   .more-info__list {
@@ -304,7 +304,15 @@
   }
 
   .more-info__text {
+    text-align: center;
     margin: 0px 0px 20px 0px;
+  }
+
+  .more-info__button {
+    text-align: center;
+  }
+  .more-info__button button {
+    padding: 20px 75px;
   }
 }
 .navbar {
@@ -350,9 +358,9 @@
   }
 
   .navbar__body {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .cards__body {
@@ -492,6 +500,7 @@
 @media (max-width: 700px) {
   .cards__body {
     display: block;
+    margin: 0px auto;
     max-width: 263px;
   }
 
@@ -593,12 +602,13 @@
 @media (max-width: 700px) {
   .footer {
     letter-spacing: 0.5px;
+    margin: 0px auto;
   }
 
   .footer__container {
+    text-align: center;
     padding: 20px 15px;
     height: auto;
-    text-align: left;
     display: block;
   }
 
