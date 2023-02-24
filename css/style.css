@@ -269,7 +269,11 @@
 
 .more-info__button button {
   padding: 20px 75px;
+  /* text-align: center; */
 }
+.more-info__button  {
+	text-align: center;
+ }
 
 @media (max-width: 1000px) {
   .more-info {
@@ -331,9 +335,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 0px 47px;
 }
 
