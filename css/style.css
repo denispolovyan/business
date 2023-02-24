@@ -68,6 +68,10 @@
   text-transform: uppercase;
   color: #646667;
 }
+.header__item:hover {
+	font-size: 13px;
+	transition-duration: 0.4s;
+ }
 
 .header__img {
   padding: 0px 14px 0px 0px;
@@ -435,6 +439,10 @@
   text-transform: uppercase;
   color: #007397;
 }
+.card__button button:hover {
+	transition-duration: 1s;
+	background-color: #DCDCDC;
+ }
 
 @media (max-width: 1200px) {
   .card__img img {
